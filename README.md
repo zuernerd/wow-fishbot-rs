@@ -7,11 +7,9 @@ A fishing bot for World of Warcraft built with Rust and OpenCV.
 **This project is for educational purposes only.** Using automation tools in World of Warcraft violates the terms of service and can result in account suspension or permanent bans. Use this code at your own risk. You will probably be banned!!
 
 ## Overview
-
-**This is a proof of concept (POC) implementation.** The code will likely require adjustments and fine-tuning to work properly on your specific setup. Expect to modify detection thresholds based on your system configuration and game settings.
-
 This fishing bot uses image processing to detect fishing bobbers and automatically responds to fish bites by monitoring visual changes in the game window. It simulates human-like behavior with randomized delays and timing to appear more natural.
 
+**This is a proof of concept (POC) implementation.** The code will likely require adjustments and fine-tuning to work properly on your specific setup. Expect to modify detection thresholds based on your system configuration and game settings.
 ## How It Works
 
 1. **Template Loading**: Loads reference images of fishing bobbers from the `./template` directory
@@ -34,8 +32,8 @@ This has only been tested on Linux yet. Should run on Windows as well.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/wow-fishing-bot.git
-cd wow-fishing-bot
+git clone https://github.com/zuernerd/wow-fishbot-rs.git
+cd wow-fishbot-rs
 ```
 
 2. Add bobber template images to the `template` directory (see Template Setup below)
@@ -76,14 +74,14 @@ Adjust these values in the source code based on your setup and testing.
 - Run World of Warcraft in **windowed mode**
 - Ensure the game window is visible and not minimized
 - The bot will automatically find the window titled "World of Warcraft"
-- **Hide the UI (Alt+z) and zoom into first person view**
 - HD Texture packs on vanilla clients can be helpful
 
 ## Usage
 
 1. Position your character in front of a fishing spot
-2. Ensure you have a fishing pole equipped and fishing skill ready
-3. Run the bot:
+2. **Hide the UI (Alt+z) and zoom into first person view**
+3. Ensure you have a fishing pole equipped and fishing skill ready
+4. Run the bot:
 ```bash
 cargo run --release
 ```
