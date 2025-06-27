@@ -1,0 +1,12 @@
+[package]
+name = "wow-fishbot-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+enigo = "0.2.1"
+opencv = "0.92.0"
+rand = "0.8.5"
+x11 = "2.21.0"
+xcap = "0.0.10"
+xdotool = "0.0.2"
