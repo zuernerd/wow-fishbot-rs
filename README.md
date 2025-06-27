@@ -6,11 +6,9 @@ A fishing bot for World of Warcraft built with Rust and OpenCV.
 
 **This project is for educational purposes only.** Using automation tools in World of Warcraft violates the terms of service and can result in account suspension or permanent bans. Use this code at your own risk. You will probably be banned!!
 
-## 🔬 Proof of Concept
+## Overview
 
 **This is a proof of concept (POC) implementation.** The code will likely require adjustments and fine-tuning to work properly on your specific setup. Expect to modify detection thresholds based on your system configuration and game settings.
-
-## Overview
 
 This fishing bot uses image processing to detect fishing bobbers and automatically responds to fish bites by monitoring visual changes in the game window. It simulates human-like behavior with randomized delays and timing to appear more natural.
 
@@ -132,4 +130,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*Remember: Use at your own risk and respect the terms of service of any games you play.*
+*Remember: Use at your own risk and respect the terms of service of any games you play. Please behave.*
