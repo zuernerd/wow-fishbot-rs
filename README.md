@@ -1,6 +1,6 @@
 # WoW Fishing Bot
 
-A fishing bot for World of Warcraft built with Rust and OpenCV.
+A POC fishing bot for World of Warcraft built with Rust and OpenCV.
 
 ## ⚠️ Disclaimer
 
@@ -26,7 +26,7 @@ This fishing bot uses image processing to detect fishing bobbers and automatical
 
 ### System Dependencies
 
-This has only been tested on Linux yet. Should run on Windows as well.
+This has only been tested on Linux yet. Some changes for detecting the World of Warcraft window are needed for Windows.
 
 ## Installation
 
@@ -110,8 +110,6 @@ cargo run --release
 
 **Code requires adjustments for your setup**
 - Detection thresholds may need tuning based on your display resolution and game settings
-- Timing delays might need adjustment depending on your system performance
-- Window detection may require different approaches on some systems
 - Consider testing in different WoW zones and lighting conditions
 
 ## Dependencies
